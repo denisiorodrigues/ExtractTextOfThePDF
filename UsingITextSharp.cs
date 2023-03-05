@@ -21,7 +21,9 @@ public class UsingITextSharp
             }
         }
 
-        Console.WriteLine("Processo encerrado");
+        Console.WriteLine(new string('*', 100));
+        Console.WriteLine("The process ITextSharp ended");
+        Console.WriteLine(new string('*', 100));
 
         reader.Close();
     }

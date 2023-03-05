@@ -18,8 +18,9 @@ public class UsingMyGhostScript
         process.Start();
         string output = process.StandardOutput.ReadToEnd();
         process.WaitForExit();
+        
         Console.WriteLine(new string('*', 100));
-        Console.WriteLine("The process ended");
+        Console.WriteLine("The process MyGhostScript ended");
         Console.WriteLine(new string('*', 100));
     }
 }
