@@ -3,6 +3,6 @@
     public static void Main(string[] agrs)
     {
         //Extract TEXT pdf with GhostScript
-        UsingMyGhostScript.Extract();
+        UsingMyGhostScript.Extract("cnis");
     }
 }

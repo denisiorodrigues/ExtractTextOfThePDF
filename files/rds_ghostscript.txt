@@ -1,0 +1,297 @@
+                                                   ÁREA DE TECNOLOGIA 
+                                       Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                                                 RDS Externo 
+                                                                  
+                 Manual de Instalação dos Clientes Remotos  
+                                                                                      
+                                                                  
+                                                           VERSÃO 2.0 
+                                        ATUALIZADO EM: SEXTA-FEIRA, 17 DE MARÇO DE 2020 
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                  HISTÓRICO DE REVISÕES 
+                       Data        Versão                       Descrição                             Autor 
+                    17/03/2020       2.0                   Criação do Documento                   CESAR Vinicius 
+                                                                                                   Costa Cunha 
+                                             RDS - Manual de Instalação     Pagina 1 
+                                                   ÁREA DE TECNOLOGIA 
+                                       Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                    20/03/2020       3.0                   Ajuste no Documento                    Renata Freires 
+                                                                                                  Guimarães Lino 
+                                                                  
+                                                           ÍNDICE 
+                1     OBJETIVOS DO PLANO DE INSTALAÇÃO ............................................................................ 3 
+                2     INSTALAÇÃO DO CLIENTE GLOBALPROTECT AGENT ................................................... 3 
+                 ..................................................................................................................................................................... 6 
+                3     INSTALAÇÃO DO CONFCLIW10.EXE (PRÉ-REQUISITO) ................................................ 9 
+                      3.1      Realizando o primeiro acesso                                                    11 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                                                                  
+                                             RDS - Manual de Instalação     Pagina 2 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                     
+                1  Objetivos do Plano de Instalação 
+                        1.1 O objetivo deste plano de instalação é fornecer detalhadamente todas as 
+                        atividades necessárias para a realização da configuração e instalação do 
+                        cliente de acesso a VPN e dos pré-requisitos para que o cliente possa usar a 
+                        solução RDS Externo. 
+                         
+                        1.2 Com este plano em mãos, espera-se que qualquer usuário com o mínimo 
+                        de conhecimentos possa executar sem maiores dificuldades as atividades 
+                        de instalação do cliente VPN e do cliente da solução de RDS Externo do Banco 
+                        do Nordeste. 
+                        1.3 Para ter acesso a VPN, o seu gestor deverá abrir uma requisição 
+                        informando o motivo e quanto tempo você terá de acesso. 
+                 
+                2  Instalação do Cliente GlobalProtect agent 
+                         
+                        Acessar a URL https://ars.bnb.gov.br e coloque suas credenciais (sem o 
+                        domínio) para fazer download do Cliente VPN: 
+                         
+                                                                                                   
+                                                RDS - Manual de Instalação     Pagina 3 
+                                                       ÁREA DE TECNOLOGIA 
+                                          Ambiente de Infra-Estrutura de Tecnologia 
+                  
+                          
+                          
+                         Faça download do GlobalProtect agent  de acordo a versão do seu Windows 
+                         10 o Windows 7, 64 ou 32 bits. 
+                                Windows 64 bits GlobalProtect agent 
+                                 ou 
+                                Windows 32 bits GlobalProtect agent 
+                                  
+                         Clique no Link correspondente:  
+                                                                                                                            
+                          
+                          
+                          
+                          
+                         Clicar em Executar ( GlobalProtect64.msi ou GlobalProtect32.msi) 
+                                                 RDS - Manual de Instalação       Pagina 4 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                                                     
+                                                                        
+                        Obs: Caso falhe o procedimento de executar, localize o arquivo .msi na pasta 
+                        downloads,  efetue  a  cópia  do  GlobalProtect64.msi  ou  GlobalProtect32.msi 
+                        para unidade C: clique com botão direito no .msi e em propriedades efetue o 
+                        desbloqueie  do  arquivo,  conforme  a  imagem  abaixo  caso  o  mesmo  esteja 
+                        bloqueado, e posteriormente selecione a opção: executar como administrador. 
+                         
+                         
+                         
+                         
+                         
+                         
+                        Clicar em Next 
+                         
+                                                RDS - Manual de Instalação     Pagina 5 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                                  
+                 
+                                                                                                 
+                 
+                        Clica em Next 
+                 
+                                                RDS - Manual de Instalação     Pagina 6 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                                 
+                        Clicar em close 
+                                                                     
+                                                                                              
+                        No final da instalação, irá aparecer a tela abaixo. Em Please enter your portal 
+                        address , digite ars.bnb.gov.br:    
+                                                                     
+                                                RDS - Manual de Instalação     Pagina 7 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                           
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+                        Em Sign In, coloque suas credenciais (sem o domínio) e clique em Sign In    
+                                                                     
+                                                                                                   
+                                                RDS - Manual de Instalação     Pagina 8 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                    
+                        Caso apareça a tela abaixo, verifique se possui Antivírus, se sim,  se o mesmo 
+                        está atualizado e se foi realizado o Full Scan nos últimos 3 dias.  Depois 
+                        conecte novamente.   
+                                                                     
+                                                                                                             
+                                                                     
+                                                                     
+                 
+                 
+                3  Instalação do ConfCliW10.EXE (Pré-requisito) 
+                 
+                                                RDS - Manual de Instalação     Pagina 9 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                a.  Estando conectado na VPN, acessar a URL 
+                                    https://rdsexterno.capgv.intra.bnb/RDWeb 
+                                b.  Clicar <Clique aqui para download dos requisitos de acesso ao RDS e 
+                                    outras aplicações”. 
+                 
+                                                                                                      
+                                c.  Clicar em Download 
+                         
+                                                                                                   
+                                d.  Clicar em Executar  
+                 
+                                                                                                                        
+                 
+                                               RDS - Manual de Instalação     Pagina 10 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                e.  Irá aparecer duas mensagens abaixo. Clique OK nas duas. Na última 
+                                    mensagem, reinicie a sua estação de trabalho:  
+                 
+                                                                                           
+                         
+                 
+                                                                                             
+                      
+                                    OBS.: Os arquivos disponibilizados pelo ConfCliW10.EXE ficam em  
+                                    C:\temp da estação. 
+                                     
+                        Obs: Caso falhe o procedimento de executar, localize o arquivo .msi na pasta 
+                        downloads, efetue a cópia do ConfCliW10.EXE para unidade C: clique com botão 
+                        direito no .exe e em propriedades efetue o desbloqueie do arquivo, conforme a 
+                        imagem abaixo caso o mesmo esteja bloqueado, e posteriormente selecione a 
+                        opção: executar como administrador. 
+                         
+                3.1  Realizando o primeiro acesso  
+                                a.  Verifique que esteja conectado na VPN  
+                                     
+                 
+                                               RDS - Manual de Instalação     Pagina 11 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                    
+                 
+                                b.  Acessar a URL https://rdsexterno.capgv.intra.bnb/RDWeb 
+                         
+                                c.  Em seguida entre com seu login e senha, ou seja, CAPGV\Yxxxxxx ou 
+                                    AGÊNCIAS\Yxxxxxx (sempre colocar domínio), onde Y corresponde 
+                                    ao tipo de colaborador e xxxxxxx corresponde ao número da conta. 
+                                    Ex.: CAPGV\F000001, CAPGV\C000001, CAPGV\T000001. Sempre 
+                                    marcar <Para computador Particular= 
+                         
+                         
+                                                                                                                
+                         
+                         
+                                               RDS - Manual de Instalação     Pagina 12 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                         
+                        b. Será apresentada uma tela semelhante a essa: 
+                         
+                                                                                                            
+                        a.  Essa tela irá mostrar as aplicações que o usuário tem permissão. Para acessar 
+                            sua estação de trabalho, clique no ícone Remote Desktop Connection. 
+                        b.  Caso tenha permissão, poderá acessar um sistema, como por exemplo, o 
+                            sistema SINC através do Portal de Aplicações – BNB, siga os procedimentos 
+                            a seguir:  Clique no ícone do SINC e seguida marque a opção <Não perguntar 
+                            sobre conexões remotas deste editor=, em seguida clique em <Conectar=.  
+                         
+                                               RDS - Manual de Instalação     Pagina 13 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                                           
+                        d.Caso seja apresentada a tela abaixo, informe o seu Login e senha. Ex.: 
+                        CAPGV\Fxxxxxx.  
+                 
+                                                                                            
+                         
+                 
+                        e. Marque a opção <Não perguntar novamente sobre conexões com este 
+                        computador=. Em seguida clique em <Sim=.  
+                         
+                         
+                                               RDS - Manual de Instalação     Pagina 14 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                                                                                                         
+                                                                        
+                        f. Clique na aplicação SINC  (S035) ; 
+                                                                     
+                                                                                                            
+                                               RDS - Manual de Instalação     Pagina 15 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                 
+                                                                        
+                         
+                         
+                        j. Irá aparecer a tela do RemoteApp. 
+                         
+                         
+                                                                                                    
+                                                                        
+                                                                        
+                         
+                        h. Depois irá aparecer a tela do sistema em si. 
+                         
+                                                                                                             
+                                                                        
+                         
+                                               RDS - Manual de Instalação     Pagina 16 
+                                                     ÁREA DE TECNOLOGIA 
+                                         Ambiente de Infra-Estrutura de Tecnologia 
+                 
+                        l. Caso tenha escolhido Remote Desktop Connection,no final, irá aparecer a tela 
+                        abaixo. Insira suas credenciais de acesso e nome da sua estação de trabalho no 
+                        BNB e clique em conectar.. 
+                                                                        
+                                                                        
+                                                                                                          
+                                                                        
+                         
+                         
+                         
+                 
+                                               RDS - Manual de Instalação     Pagina 17 

@@ -12,7 +12,7 @@ public class UsingITextSharp
         Console.WriteLine("Iniciando o processo do arquivo");
 
         PdfReader reader = new PdfReader($"{absolutePath}.pdf");
-        using (StreamWriter writer = new StreamWriter($"{absolutePath}.txt"))
+        using (StreamWriter writer = new StreamWriter($"{absolutePath}_itextsharp_{DateTime.Now.ToString("yyyMMdd-mmss")}.txt"))
         {
             for (int page = 1; page <= reader.NumberOfPages; page++)
             {
